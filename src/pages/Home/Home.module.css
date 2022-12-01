@@ -1,0 +1,18 @@
+.products_list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+    padding: 1em;
+}
+
+.products_list li {
+    width: 15em;
+}
+
+.products_list li img {
+    width: 10em;
+    height: 10em;
+}
